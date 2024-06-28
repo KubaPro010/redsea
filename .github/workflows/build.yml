@@ -108,6 +108,10 @@ jobs:
         cut -f1 -d\( |
         awk '{$1=$1};1' |
         xargs -I{} cp {} distrib/
+    - uses: actions/upload-artifact@v4
+      with:
+        name: distrib
+        path: distrib
 
   build-windows-cygwin:
     runs-on: windows-latest
