@@ -10,7 +10,7 @@ Please refer to the wiki for [input data formats][Wiki: Input].
 
 Redsea can be used with any [RTL-SDR][About RTL-SDR] USB radio stick with the
 `rtl_fm` tool, or any other SDR via a tool like `csdr` (see [wiki][Wiki: Use cases]). It can decode MPX from
-raw PCM or audio files, ASCII bitstreams, the hex format used by RDS Spy, or the TEF6686 serial format.
+raw PCM or audio files, ASCII bitstreams, the hex format used by RDS Spy, or the TEF6686 serial format
 
 [About RTL-SDR]: http://www.rtl-sdr.com/about-rtl-sdr
 [Wiki: Features]: https://github.com/windytan/redsea/wiki/Supported-RDS-features
